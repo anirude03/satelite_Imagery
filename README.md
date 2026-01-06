@@ -26,7 +26,7 @@ Modular and reproducible codebase
 
 # Repository Structure
 
-├──── train(1).csv
+├── train(1).csv
 ├── test(2).csv
 │
 ├── map_images/
@@ -34,26 +34,30 @@ Modular and reproducible codebase
 │   └── test/
 │
 ├── preprocessing.ipynb
-|
+│
 ├── baseline_models_and_GRAD-CAM.ipynb
-|     -- Baseline Models
-|     -- Multimodal Architecture
-|     -- CNN + XGboost Model
-|     -- Test Prediction
-|     -- GRAD-CAM and Overlays
-|    
+│   ├── Baseline Models
+│   ├── Multimodal Architecture
+│   ├── CNN + XGBoost Model
+│   ├── Test Prediction
+│   └── Grad-CAM and Overlays
+│
 ├── model_training.ipynb
-├
-├── image_fetcher.py       # to fetch the satelite Imagery
-|
-|── best_multimodal_model.pt
-├── final_predictions.csv
+│
+├── image_fetcher.py          # Script to fetch satellite imagery
+│
+├── best_multimodal_model.pt  # Trained multimodal model weights
+├── _predictions.csv    # Test set predictions
+│
 ├── gradcam/
-|── tabular_preprocessed.joblib
-|── train_config.json
-|
+│   └── (saved Grad-CAM visualizations)
+│
+├── tabular_preprocessed.joblib  # Saved tabular preprocessing artifacts
+├── train_config.json            # Training configuration and hyperparameters
+│
 ├── requirements.txt
 └── README.md
+
 
 # Installation & Setup
 
