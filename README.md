@@ -73,7 +73,7 @@ Install all required Python packages using:
 ```bash
 pip install -r requirements.txt
 
-Download satellite imagery using geographic coordinates:
+Download satellite imagery using lat,long coordinates:
 python image_fetcher.py
 
 
@@ -87,21 +87,40 @@ preprocessing.ipynb
 # Baseline Models
 baseline_models_and_GRAD-CAM.ipynb  —  Baseline Models
 
+This section includes:
+
+Tabular-only baseline models
+
+Multimodal Architecture Code
+
+Performance benchmarking
     
 
 # Model Training
 model_training.ipynb
    
+Run this notebook to:
 
-# Run Epochs to train the model or use the already trained model (best_multimodel.pt) and fine tune.
+Train the multimodal model
+
+Run multiple epochs
+
+Fine-tune or load the already trained model (best_multimodal_model.pt)
    
 # Test Prediction and Explanability
-   baseline_models_and_GRAD-CAM.ipynb  
+baseline_models_and_GRAD-CAM.ipynb  
 — Multimodal Architecture  
 — CNN + XGBoost Model  
 — Test Prediction  
 — Grad-CAM and Overlays
 
+This section covers:
+
+Multimodal inference on the test dataset
+
+Generation of test predictions
+
+Grad-CAM explainability and overlays
 
 
 # Outputs
