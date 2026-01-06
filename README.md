@@ -45,10 +45,10 @@ Modular and reproducible codebase
 │
 ├── model_training.ipynb
 │
-├── image_fetcher.py          # Script to fetch satellite imagery
+├── image_fetcher.py              # Script to fetch satellite imagery
 │
-├── best_multimodal_model.pt  # Trained multimodal model weights
-├── _predictions.csv    # Test set predictions
+├── best_multimodal_model.pt      # Trained multimodal model weights
+├── _predictions.csv              # Test set predictions
 │
 ├── gradcam/
 │   └── (saved Grad-CAM visualizations)
@@ -60,42 +60,54 @@ Modular and reproducible codebase
 └── README.md
 ```
 
-# Installation & Setup
+#  Satellite Imagery–Based Multimodal Property Valuation
 
- # Install dependencies
-     -- requirements.txt
+---
 
- # Fetch satellite images
-    -- image_fetcher.py
+##  Installation & Setup
+
+### Install Dependencies
+
+Install all required Python packages using:
+
+```bash
+pip install -r requirements.txt
+
+Download satellite imagery using geographic coordinates:
+python image_fetcher.py
+
 
 # How to Run
 
-  # Preprocessing & EDA
-    preprocessing.ipynb
+# Preprocessing & EDA
+preprocessing.ipynb
+
+
 
 # Baseline Models
-    baseline_models_and_GRAD-CAM.ipynb
-      --- Baseline Models     
+baseline_models_and_GRAD-CAM.ipynb  —  Baseline Models
+
+    
 
 # Model Training
-    model_training.ipynb     # Run Epochs to train the model or use the already trained model (best_multimodel.pt) and fine tune.
+model_training.ipynb
+   
 
+# Run Epochs to train the model or use the already trained model (best_multimodel.pt) and fine tune.
+   
 # Test Prediction and Explanability
-    basline_models_and_GRAD-CAM.ipynb
-    ```
-      -- Multimodal Architecture
-      -- CNN + XGboost Model
-      -- Test Prediction
-|        -- GRAD-CAM and Overlays 
-        ```
+   baseline_models_and_GRAD-CAM.ipynb  
+— Multimodal Architecture  
+— CNN + XGBoost Model  
+— Test Prediction  
+— Grad-CAM and Overlays
+
 
 
 # Outputs
-final_predictions.csv — Test set predictions
-
-best_multimodal_model.pt — Trained model weights
-
-outputs/gradcam/ — Explainability visualizations
+final_predictions.csv        — Test set predictions
+best_multimodal_model.pt     — Trained multimodal model weights
+outputs/gradcam/             — Explainability visualizations
 
 
 Author
