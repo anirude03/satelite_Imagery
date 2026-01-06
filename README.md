@@ -85,13 +85,13 @@ preprocessing.ipynb
 
 
 # Baseline Models
-baseline_models_and_GRAD-CAM.ipynb  —  Baseline Models
+baseline_models_and_GRAD-CAM.ipynb  
+—  Baseline Models
+
 
 This section includes:
 
 Tabular-only baseline models
-
-Multimodal Architecture Code
 
 Performance benchmarking
     
