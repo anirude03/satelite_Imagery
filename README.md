@@ -66,7 +66,7 @@ Modular and reproducible codebase
      -- requirements.txt
 
  # Fetch satellite images
-   -- image_fetcher.py
+    -- image_fetcher.py
 
 # How to Run
 
@@ -74,14 +74,14 @@ Modular and reproducible codebase
     preprocessing.ipynb
 
 # Baseline Models
-   baseline_models_and_GRAD-CAM.ipynb
+    baseline_models_and_GRAD-CAM.ipynb
       --- Baseline Models     
 
 # Model Training
-   model_training.ipynb     # Run Epochs to train the model or use the already trained model (best_multimodel.pt) and fine tune.
+    model_training.ipynb     # Run Epochs to train the model or use the already trained model (best_multimodel.pt) and fine tune.
 
 # Test Prediction and Explanability
-   basline_models_and_GRAD-CAM.ipynb
+    basline_models_and_GRAD-CAM.ipynb
     ```
       -- Multimodal Architecture
       -- CNN + XGboost Model
