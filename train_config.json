@@ -1,0 +1,10 @@
+{
+    "num_tabular_features": 23,
+    "batch_size": 32,
+    "lr": 0.0001,
+    "weight_decay": 1e-05,
+    "epochs": 5,
+    "image_size": 224,
+    "train_image_dir": "map_images/train",
+    "test_image_dir": "map_images/test"
+}
