@@ -47,13 +47,15 @@ Modular and reproducible codebase
 │
 ├── image_fetcher.py              # Script to fetch satellite imagery
 │
-├── best_multimodal_model.pt      # Trained multimodal model weights
-├── _predictions.csv              # Test set predictions
+├── ouputs
+|     | 
+|     ├──  best_multimodal_model.pt      # Trained multimodal model weights
+|     ├──  final_predictions.csv              # Test set predictions
+│     |──  gradcam/
+│            └── (saved Grad-CAM visualizations)
+├
 │
-├── gradcam/
-│   └── (saved Grad-CAM visualizations)
-│
-├── tabular_preprocessed.joblib  # Saved tabular preprocessing artifacts
+├── tabular_preprocessed.joblib  # Saved tabular preprocessing package
 ├── train_config.json            # Training configuration and hyperparameters
 │
 ├── requirements.txt
