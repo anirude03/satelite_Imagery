@@ -49,7 +49,7 @@ Modular and reproducible codebase
 │
 ├── ouputs
 |     | 
-|     ├──  best_multimodal_model.pt      # Trained multimodal model weights
+|     ├──  best_multimodal_model.pt           # Trained multimodal model weights
 |     ├──  final_predictions.csv              # Test set predictions
 │     |──  gradcam/
 │            └── (saved Grad-CAM visualizations)
@@ -58,6 +58,10 @@ Modular and reproducible codebase
 ├── tabular_preprocessed.joblib  # Saved tabular preprocessing package
 ├── train_config.json            # Training configuration and hyperparameters
 │
+├── submission Files                  
+|        ├── 21324003.csv       # prediction file 
+|        ├── 21324003.pdf       # Detailed EDA, Model Architecture
+|
 ├── requirements.txt
 └── README.md
 ```
@@ -123,6 +127,13 @@ Multimodal inference on the test dataset
 Generation of test predictions
 
 Grad-CAM explainability and overlays
+
+# prediction file
+submission Files/21324003.csv
+
+#  Report 
+submission Files/21324003.pdf
+Detailed EDA , Feature Engineering, Model Architecture , Explainability & visualization
 
 
 # Outputs
