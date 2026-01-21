@@ -141,9 +141,9 @@ final_predictions.csv        — Test set predictions
 best_multimodal_model.pt     — Trained multimodal model weights
 outputs/gradcam/             — Explainability visualizations
 ```
-```
-Author
 
+Author
+```
 Anirudh Kumar Verma
 Multimodal Machine Learning | Computer Vision | Data Science
 
